@@ -1,0 +1,396 @@
+2017-06-27 21:57:03,598 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2017-06-27 21:57:04,146 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2017-06-27 21:57:04,273 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2017-06-27 21:57:04,275 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_101\jre
+	java.io.tmpdir = C:\Users\pandeyk\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_101\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Java\jdk1.8.0_101\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\pandeyk\Downloads\programs\cmder\bin;C:\Users\pandeyk\Downloads\programs\cmder\vendor\git-for-windows\cmd;C:\Users\pandeyk\Downloads\programs\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\pandeyk\Downloads\programs\cmder\vendor\conemu-maximus5;C:\Users\pandeyk\Downloads\programs\cmder\vendor\conemu-maximus5\ConEmu;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\ActivIdentity\ActivClient\;C:\Program Files (x86)\ActivIdentity\ActivClient\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Users\pandeyk\Downloads\programs\cmder\vendor\git-for-windows\usr\bin;C:\Users\pandeyk\Downloads\programs\cmder\vendor\git-for-windows\usr\share\vim\vim74;C:\Users\pandeyk\Downloads\programs\cmder\;C:\Program Files\apache-maven-3.5.0\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\pandeyk\Downloads\programs\apache-ant-1.9.7-bin\apache-ant-1.9.7\bin;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\jni4net-0.8.8.0-bin\bin;C:\Program Files\Perforce;C:\Program Files\Perforce\DVCS\;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\nodejs\;C:\PROGRA~2\Groovy\GROOVY~1.7\bin;%GRAILS_HOME&\bin;C:\Program Files (x86)\PuTTY\;C:\Program Files\PuTTY\;C:\Program Files\Voltage Security\Voltage SecureData Simple API - Java\lib;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\pandeyk\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Users\pandeyk\AppData\Local\Microsoft\WindowsApps;C:\PROGRA~2\Groovy\GROOVY~1.7\bin;C:\Program Files\grails-3.2.4\bin;.
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_101-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_101
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.101-b13
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final
+	jboss.host.name = pandeyk6
+	jboss.modules.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\modules
+	jboss.modules.system.pkgs = com.sun.java.swing
+	jboss.node.name = pandeyk6
+	jboss.prev.home.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final
+	jboss.qualified.host.name = pandeyk6
+	jboss.server.base.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone
+	jboss.server.config.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\log
+	jboss.server.name = pandeyk6
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\data\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\bin\jboss-cli-logging.properties
+	module.path = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_101\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\jboss-modules.jar -mp C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\modules org.jboss.as.cli --file=adapter-install-offline.cli
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp437
+	sun.stdout.encoding = cp437
+	user.country = US
+	user.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\bin
+	user.home = C:\Users\pandeyk
+	user.language = en
+	user.name = pandeyk
+	user.script = 
+	user.timezone = Asia/Calcutta
+	user.variant = 
+2017-06-27 21:57:04,277 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Djboss.modules.system.pkgs=com.sun.java.swing -Dlogging.configuration=file:C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\bin\jboss-cli-logging.properties 
+2017-06-27 21:57:09,220 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-8) WFLYDM0111: Keystore C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2017-06-27 21:57:09,508 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 5889ms - Started 37 of 51 services (22 services are lazy, passive or on-demand)
+2017-06-27 21:57:09,643 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 5ms
+2017-06-27 21:57:54,310 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2017-06-27 21:57:54,665 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2017-06-27 21:57:54,763 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2017-06-27 21:57:54,766 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_101\jre
+	java.io.tmpdir = C:\Users\pandeyk\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_101\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Java\jdk1.8.0_101\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\pandeyk\Downloads\programs\cmder\bin;C:\Users\pandeyk\Downloads\programs\cmder\vendor\git-for-windows\cmd;C:\Users\pandeyk\Downloads\programs\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\pandeyk\Downloads\programs\cmder\vendor\conemu-maximus5;C:\Users\pandeyk\Downloads\programs\cmder\vendor\conemu-maximus5\ConEmu;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\ActivIdentity\ActivClient\;C:\Program Files (x86)\ActivIdentity\ActivClient\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Users\pandeyk\Downloads\programs\cmder\vendor\git-for-windows\usr\bin;C:\Users\pandeyk\Downloads\programs\cmder\vendor\git-for-windows\usr\share\vim\vim74;C:\Users\pandeyk\Downloads\programs\cmder\;C:\Program Files\apache-maven-3.5.0\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\pandeyk\Downloads\programs\apache-ant-1.9.7-bin\apache-ant-1.9.7\bin;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\jni4net-0.8.8.0-bin\bin;C:\Program Files\Perforce;C:\Program Files\Perforce\DVCS\;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\nodejs\;C:\PROGRA~2\Groovy\GROOVY~1.7\bin;%GRAILS_HOME&\bin;C:\Program Files (x86)\PuTTY\;C:\Program Files\PuTTY\;C:\Program Files\Voltage Security\Voltage SecureData Simple API - Java\lib;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\pandeyk\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Users\pandeyk\AppData\Local\Microsoft\WindowsApps;C:\PROGRA~2\Groovy\GROOVY~1.7\bin;C:\Program Files\grails-3.2.4\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_101-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_101
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.101-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final
+	jboss.host.name = pandeyk6
+	jboss.modules.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = pandeyk6
+	jboss.qualified.host.name = pandeyk6
+	jboss.server.base.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone
+	jboss.server.config.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\log
+	jboss.server.name = pandeyk6
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_101\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\jboss-modules.jar -mp C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp437
+	sun.stdout.encoding = cp437
+	user.country = US
+	user.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\bin
+	user.home = C:\Users\pandeyk
+	user.language = en
+	user.name = pandeyk
+	user.script = 
+	user.timezone = Asia/Calcutta
+	user.variant = 
+2017-06-27 21:57:54,768 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\configuration/logging.properties 
+2017-06-27 21:57:57,494 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2017-06-27 21:57:57,531 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.4.0.Final
+2017-06-27 21:57:57,551 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.4.0.Final
+2017-06-27 21:57:57,652 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 39) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-06-27 21:57:57,679 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 38) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2017-06-27 21:57:57,782 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2017-06-27 21:57:57,817 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 34) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-06-27 21:57:57,848 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 47) WFLYNAM0001: Activating Naming Subsystem
+2017-06-27 21:57:57,854 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-06-27 21:57:57,855 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 55) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-06-27 21:57:57,868 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 57) WFLYWS0002: Activating WebServices Extension
+2017-06-27 21:57:57,907 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 54) WFLYSEC0002: Activating Security Subsystem
+2017-06-27 21:57:57,938 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 45) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-06-27 21:57:58,030 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2017-06-27 21:57:58,119 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-06-27 21:57:58,182 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 1.4.0.Final starting
+2017-06-27 21:57:58,193 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2017-06-27 21:57:58,718 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2017-06-27 21:57:58,722 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2017-06-27 21:57:58,825 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 56) WFLYUT0014: Creating file handler for path 'C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-06-27 21:58:00,248 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2017-06-27 21:58:00,263 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.21.Final
+2017-06-27 21:58:00,280 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2017-06-27 21:58:00,411 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2017-06-27 21:58:00,713 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2017-06-27 21:58:00,739 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\deployments
+2017-06-27 21:58:01,191 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-06-27 21:58:01,355 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-2) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2017-06-27 21:58:01,374 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2017-06-27 21:58:01,485 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-06-27 21:58:01,489 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-06-27 21:58:01,493 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 67) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-06-27 21:58:01,566 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-06-27 21:58:01,581 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 67) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-06-27 21:58:01,586 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-06-27 21:58:02,027 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2017-06-27 21:58:02,630 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2017-06-27 21:58:02,632 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2017-06-27 21:58:02,633 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 8850ms - Started 332 of 578 services (393 services are lazy, passive or on-demand)
+2017-06-27 22:01:45,509 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\data\content\12\15b0504b66b780a3a3ff0258be0611e49fb69b\content
+2017-06-27 22:01:45,541 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "vanilla.war" (runtime-name: "vanilla.war")
+2017-06-27 22:01:46,700 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 74) WFLYUT0021: Registered web context: /vanilla
+2017-06-27 22:01:46,795 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "vanilla.war" (runtime-name : "vanilla.war")
+2017-06-27 22:09:11,641 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2017-06-27 22:09:11,732 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 78) WFLYUT0022: Unregistered web context: /vanilla
+2017-06-27 22:09:11,765 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: Host default-host stopping
+2017-06-27 22:09:11,767 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2017-06-27 22:09:11,789 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2017-06-27 22:09:11,801 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTPS listener https suspending
+2017-06-27 22:09:11,806 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTP listener default suspending
+2017-06-27 22:09:11,809 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2017-06-27 22:09:11,812 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2017-06-27 22:09:11,818 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0004: Undertow 1.4.0.Final stopping
+2017-06-27 22:09:11,846 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment vanilla.war (runtime-name: vanilla.war) in 173ms
+2017-06-27 22:09:11,855 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 182ms
+2017-06-27 22:09:17,739 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2017-06-27 22:09:18,086 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2017-06-27 22:09:18,189 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2017-06-27 22:09:18,191 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_101\jre
+	java.io.tmpdir = C:\Users\pandeyk\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_101\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Java\jdk1.8.0_101\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\pandeyk\Downloads\programs\cmder\bin;C:\Users\pandeyk\Downloads\programs\cmder\vendor\git-for-windows\cmd;C:\Users\pandeyk\Downloads\programs\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\pandeyk\Downloads\programs\cmder\vendor\conemu-maximus5;C:\Users\pandeyk\Downloads\programs\cmder\vendor\conemu-maximus5\ConEmu;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\ActivIdentity\ActivClient\;C:\Program Files (x86)\ActivIdentity\ActivClient\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Users\pandeyk\Downloads\programs\cmder\vendor\git-for-windows\usr\bin;C:\Users\pandeyk\Downloads\programs\cmder\vendor\git-for-windows\usr\share\vim\vim74;C:\Users\pandeyk\Downloads\programs\cmder\;C:\Program Files\apache-maven-3.5.0\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\pandeyk\Downloads\programs\apache-ant-1.9.7-bin\apache-ant-1.9.7\bin;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\jni4net-0.8.8.0-bin\bin;C:\Program Files\Perforce;C:\Program Files\Perforce\DVCS\;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\nodejs\;C:\PROGRA~2\Groovy\GROOVY~1.7\bin;%GRAILS_HOME&\bin;C:\Program Files (x86)\PuTTY\;C:\Program Files\PuTTY\;C:\Program Files\Voltage Security\Voltage SecureData Simple API - Java\lib;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\pandeyk\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Users\pandeyk\AppData\Local\Microsoft\WindowsApps;C:\PROGRA~2\Groovy\GROOVY~1.7\bin;C:\Program Files\grails-3.2.4\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_101-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_101
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.101-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final
+	jboss.host.name = pandeyk6
+	jboss.modules.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = pandeyk6
+	jboss.qualified.host.name = pandeyk6
+	jboss.server.base.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone
+	jboss.server.config.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\log
+	jboss.server.name = pandeyk6
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_101\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\jboss-modules.jar -mp C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp437
+	sun.stdout.encoding = cp437
+	user.country = US
+	user.dir = C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\bin
+	user.home = C:\Users\pandeyk
+	user.language = en
+	user.name = pandeyk
+	user.script = 
+	user.timezone = Asia/Calcutta
+	user.variant = 
+2017-06-27 22:09:18,193 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\configuration/logging.properties 
+2017-06-27 22:09:20,857 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2017-06-27 22:09:20,885 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.4.0.Final
+2017-06-27 22:09:20,898 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.4.0.Final
+2017-06-27 22:09:21,037 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 38) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2017-06-27 22:09:21,055 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 34) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-06-27 22:09:21,064 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 39) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-06-27 22:09:21,099 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2017-06-27 22:09:21,108 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 45) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-06-27 22:09:21,119 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-06-27 22:09:21,246 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 55) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-06-27 22:09:21,259 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 57) WFLYWS0002: Activating WebServices Extension
+2017-06-27 22:09:21,264 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 47) WFLYNAM0001: Activating Naming Subsystem
+2017-06-27 22:09:21,266 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 54) WFLYSEC0002: Activating Security Subsystem
+2017-06-27 22:09:21,395 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 1.4.0.Final starting
+2017-06-27 22:09:21,532 INFO  [org.jboss.as.security] (MSC service thread 1-2) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2017-06-27 22:09:21,589 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2017-06-27 22:09:21,606 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 56) WFLYUT0014: Creating file handler for path 'C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-06-27 22:09:21,836 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2017-06-27 22:09:22,003 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2017-06-27 22:09:22,028 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-06-27 22:09:23,069 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 4.0.21.Final
+2017-06-27 22:09:23,072 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2017-06-27 22:09:23,141 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2017-06-27 22:09:23,348 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2017-06-27 22:09:23,471 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2017-06-27 22:09:23,516 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\pandeyk\OneDrive\Neemiya\keycloak\wildfly-10.1.0.Final\standalone\deployments
+2017-06-27 22:09:23,568 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "vanilla.war" (runtime-name: "vanilla.war")
+2017-06-27 22:09:23,743 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-06-27 22:09:23,834 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-6) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2017-06-27 22:09:23,957 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-06-27 22:09:23,973 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-06-27 22:09:23,986 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-06-27 22:09:23,991 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-06-27 22:09:24,012 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-06-27 22:09:24,026 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-06-27 22:09:24,070 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2017-06-27 22:09:24,282 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2017-06-27 22:09:24,857 INFO  [org.jboss.keycloak] (MSC service thread 1-3) Keycloak subsystem override for deployment vanilla.war
+2017-06-27 22:09:25,879 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0021: Registered web context: /vanilla
+2017-06-27 22:09:25,920 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "vanilla.war" (runtime-name : "vanilla.war")
+2017-06-27 22:09:26,133 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2017-06-27 22:09:26,134 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2017-06-27 22:09:26,135 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 8856ms - Started 402 of 652 services (404 services are lazy, passive or on-demand)
+2017-06-27 22:10:31,939 WARN  [org.keycloak.adapters.OAuthRequestAuthenticator] (default task-16) state parameter invalid
+2017-06-27 22:12:54,850 WARN  [org.keycloak.adapters.OAuthRequestAuthenticator] (default task-16) cookie: 0400e93c-a21c-40a5-9073-6e642b2af5ab
+2017-06-27 22:12:54,871 WARN  [org.keycloak.adapters.OAuthRequestAuthenticator] (default task-16) queryParam: 09097d46-d6b1-4e67-9f32-c40b4921cfe8
+2017-06-27 22:13:18,900 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2017-06-27 22:13:18,946 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 71) WFLYUT0022: Unregistered web context: /vanilla
+2017-06-27 22:13:18,992 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0019: Host default-host stopping
+2017-06-27 22:13:19,001 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2017-06-27 22:13:19,014 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2017-06-27 22:13:19,026 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTP listener default suspending
+2017-06-27 22:13:19,026 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTPS listener https suspending
+2017-06-27 22:13:19,028 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2017-06-27 22:13:19,033 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2017-06-27 22:13:19,040 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0004: Undertow 1.4.0.Final stopping
+2017-06-27 22:13:19,072 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment vanilla.war (runtime-name: vanilla.war) in 162ms
+2017-06-27 22:13:19,085 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 174ms
