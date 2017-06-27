@@ -1,0 +1,4 @@
+org\keycloak\quickstart\page\LoginPage.class
+org\keycloak\quickstart\ArquillianProfileJeeVanillaTest.class
+org\keycloak\quickstart\page\ProfilePage.class
+org\keycloak\quickstart\page\IndexPage.class
