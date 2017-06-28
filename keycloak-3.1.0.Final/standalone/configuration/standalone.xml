@@ -116,6 +116,17 @@
         <subsystem xmlns="urn:jboss:domain:bean-validation:1.0"/>
         <subsystem xmlns="urn:jboss:domain:datasources:4.0">
             <datasources>
+				<datasource jndi-name="java:jboss/datasources/KeycloakDS" pool-name="KeycloakDS" enabled="true" use-java-context="true">
+					<connection-url>jdbc:postgresql://localhost:5433/keycloak</connection-url>
+					<driver>postgresql</driver>
+					<pool>
+						<max-pool-size>20</max-pool-size>
+					</pool>
+					<security>
+						<user-name>postgres</user-name>
+						<password>postgres</password>
+					</security>
+				</datasource>
                 <datasource jndi-name="java:jboss/datasources/ExampleDS" pool-name="ExampleDS" enabled="true" use-java-context="true">
                     <connection-url>jdbc:h2:mem:test;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE</connection-url>
                     <driver>h2</driver>
@@ -124,15 +135,18 @@
                         <password>sa</password>
                     </security>
                 </datasource>
-                <datasource jndi-name="java:jboss/datasources/KeycloakDS" pool-name="KeycloakDS" enabled="true" use-java-context="true">
+                <!--datasource jndi-name="java:jboss/datasources/KeycloakDS" pool-name="KeycloakDS" enabled="true" use-java-context="true">
                     <connection-url>jdbc:h2:${jboss.server.data.dir}/keycloak;AUTO_SERVER=TRUE</connection-url>
                     <driver>h2</driver>
                     <security>
                         <user-name>sa</user-name>
                         <password>sa</password>
                     </security>
-                </datasource>
+                </datasource-->
                 <drivers>
+					<driver name="postgresql" module="org.postgresql">
+						<xa-datasource-class>org.postgresql.xa.PGXADataSource</xa-datasource-class>
+					</driver>
                     <driver name="h2" module="com.h2database.h2">
                         <xa-datasource-class>org.h2.jdbcx.JdbcDataSource</xa-datasource-class>
                     </driver>
